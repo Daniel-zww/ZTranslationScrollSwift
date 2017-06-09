@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		654788F61EEA4E77006AEBB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654788F51EEA4E77006AEBB3 /* AppDelegate.swift */; };
+		654788FB1EEA4E77006AEBB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654788F91EEA4E77006AEBB3 /* Main.storyboard */; };
+		654788FD1EEA4E77006AEBB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654788FC1EEA4E77006AEBB3 /* Assets.xcassets */; };
+		654789001EEA4E77006AEBB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654788FE1EEA4E77006AEBB3 /* LaunchScreen.storyboard */; };
+		6547890B1EEA4E77006AEBB3 /* ZTranslationScrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547890A1EEA4E77006AEBB3 /* ZTranslationScrollTests.swift */; };
+		654789161EEA4E77006AEBB3 /* ZTranslationScrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654789151EEA4E77006AEBB3 /* ZTranslationScrollUITests.swift */; };
+		654789271EEA4F03006AEBB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654789261EEA4F03006AEBB3 /* ViewController.swift */; };
+		654789291EEA4F3E006AEBB3 /* ZTranslationScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654789281EEA4F3E006AEBB3 /* ZTranslationScrollView.swift */; };
+		6547892B1EEA51A0006AEBB3 /* ZTranslationToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547892A1EEA51A0006AEBB3 /* ZTranslationToolView.swift */; };
+		CAEFBBF499FFD2C20A3DADA2 /* Pods_ZTranslationScroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9217CCD22F72460BD9C3688 /* Pods_ZTranslationScroll.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		654789071EEA4E77006AEBB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654788EA1EEA4E77006AEBB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654788F11EEA4E77006AEBB3;
+			remoteInfo = ZTranslationScroll;
+		};
+		654789121EEA4E77006AEBB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654788EA1EEA4E77006AEBB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654788F11EEA4E77006AEBB3;
+			remoteInfo = ZTranslationScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3496B8F6E67E6E5A429138E3 /* Pods-ZTranslationScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTranslationScroll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZTranslationScroll/Pods-ZTranslationScroll.debug.xcconfig"; sourceTree = "<group>"; };
+		654788F21EEA4E77006AEBB3 /* ZTranslationScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTranslationScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		654788F51EEA4E77006AEBB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		654788FA1EEA4E77006AEBB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		654788FC1EEA4E77006AEBB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654788FF1EEA4E77006AEBB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		654789011EEA4E77006AEBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654789061EEA4E77006AEBB3 /* ZTranslationScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTranslationScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6547890A1EEA4E77006AEBB3 /* ZTranslationScrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTranslationScrollTests.swift; sourceTree = "<group>"; };
+		6547890C1EEA4E77006AEBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654789111EEA4E77006AEBB3 /* ZTranslationScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTranslationScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		654789151EEA4E77006AEBB3 /* ZTranslationScrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTranslationScrollUITests.swift; sourceTree = "<group>"; };
+		654789171EEA4E77006AEBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654789261EEA4F03006AEBB3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		654789281EEA4F3E006AEBB3 /* ZTranslationScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTranslationScrollView.swift; sourceTree = "<group>"; };
+		6547892A1EEA51A0006AEBB3 /* ZTranslationToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTranslationToolView.swift; sourceTree = "<group>"; };
+		E7512F2E4F967ECB57B2AB57 /* Pods-ZTranslationScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTranslationScroll.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZTranslationScroll/Pods-ZTranslationScroll.release.xcconfig"; sourceTree = "<group>"; };
+		E9217CCD22F72460BD9C3688 /* Pods_ZTranslationScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTranslationScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654788EF1EEA4E77006AEBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAEFBBF499FFD2C20A3DADA2 /* Pods_ZTranslationScroll.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654789031EEA4E77006AEBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6547890E1EEA4E77006AEBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D5DD34C166BF99C8F52E9FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9217CCD22F72460BD9C3688 /* Pods_ZTranslationScroll.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		654788E91EEA4E77006AEBB3 = {
+			isa = PBXGroup;
+			children = (
+				654788F31EEA4E77006AEBB3 /* Products */,
+				654788F41EEA4E77006AEBB3 /* ZTranslationScroll */,
+				654789091EEA4E77006AEBB3 /* ZTranslationScrollTests */,
+				654789141EEA4E77006AEBB3 /* ZTranslationScrollUITests */,
+				E2B3235057D5DF09613761D3 /* Pods */,
+				5D5DD34C166BF99C8F52E9FA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		654788F31EEA4E77006AEBB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654788F21EEA4E77006AEBB3 /* ZTranslationScroll.app */,
+				654789061EEA4E77006AEBB3 /* ZTranslationScrollTests.xctest */,
+				654789111EEA4E77006AEBB3 /* ZTranslationScrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654788F41EEA4E77006AEBB3 /* ZTranslationScroll */ = {
+			isa = PBXGroup;
+			children = (
+				654788F51EEA4E77006AEBB3 /* AppDelegate.swift */,
+				654788FC1EEA4E77006AEBB3 /* Assets.xcassets */,
+				654789011EEA4E77006AEBB3 /* Info.plist */,
+				654788FE1EEA4E77006AEBB3 /* LaunchScreen.storyboard */,
+				654788F91EEA4E77006AEBB3 /* Main.storyboard */,
+				654789231EEA4EA3006AEBB3 /* UI */,
+			);
+			path = ZTranslationScroll;
+			sourceTree = "<group>";
+		};
+		654789091EEA4E77006AEBB3 /* ZTranslationScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				6547890A1EEA4E77006AEBB3 /* ZTranslationScrollTests.swift */,
+				6547890C1EEA4E77006AEBB3 /* Info.plist */,
+			);
+			path = ZTranslationScrollTests;
+			sourceTree = "<group>";
+		};
+		654789141EEA4E77006AEBB3 /* ZTranslationScrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				654789151EEA4E77006AEBB3 /* ZTranslationScrollUITests.swift */,
+				654789171EEA4E77006AEBB3 /* Info.plist */,
+			);
+			path = ZTranslationScrollUITests;
+			sourceTree = "<group>";
+		};
+		654789231EEA4EA3006AEBB3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				654789241EEA4EA9006AEBB3 /* View */,
+				654789251EEA4EB5006AEBB3 /* ViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		654789241EEA4EA9006AEBB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				654789281EEA4F3E006AEBB3 /* ZTranslationScrollView.swift */,
+				6547892A1EEA51A0006AEBB3 /* ZTranslationToolView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		654789251EEA4EB5006AEBB3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				654789261EEA4F03006AEBB3 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E2B3235057D5DF09613761D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3496B8F6E67E6E5A429138E3 /* Pods-ZTranslationScroll.debug.xcconfig */,
+				E7512F2E4F967ECB57B2AB57 /* Pods-ZTranslationScroll.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654788F11EEA4E77006AEBB3 /* ZTranslationScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6547891A1EEA4E77006AEBB3 /* Build configuration list for PBXNativeTarget "ZTranslationScroll" */;
+			buildPhases = (
+				CB7C7BA8261A72508F0224C5 /* [CP] Check Pods Manifest.lock */,
+				654788EE1EEA4E77006AEBB3 /* Sources */,
+				654788EF1EEA4E77006AEBB3 /* Frameworks */,
+				654788F01EEA4E77006AEBB3 /* Resources */,
+				B700213B5D8E00A48E1742FE /* [CP] Embed Pods Frameworks */,
+				3CA061AD7047D8A3726ED3DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTranslationScroll;
+			productName = ZTranslationScroll;
+			productReference = 654788F21EEA4E77006AEBB3 /* ZTranslationScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		654789051EEA4E77006AEBB3 /* ZTranslationScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6547891D1EEA4E77006AEBB3 /* Build configuration list for PBXNativeTarget "ZTranslationScrollTests" */;
+			buildPhases = (
+				654789021EEA4E77006AEBB3 /* Sources */,
+				654789031EEA4E77006AEBB3 /* Frameworks */,
+				654789041EEA4E77006AEBB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654789081EEA4E77006AEBB3 /* PBXTargetDependency */,
+			);
+			name = ZTranslationScrollTests;
+			productName = ZTranslationScrollTests;
+			productReference = 654789061EEA4E77006AEBB3 /* ZTranslationScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		654789101EEA4E77006AEBB3 /* ZTranslationScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654789201EEA4E77006AEBB3 /* Build configuration list for PBXNativeTarget "ZTranslationScrollUITests" */;
+			buildPhases = (
+				6547890D1EEA4E77006AEBB3 /* Sources */,
+				6547890E1EEA4E77006AEBB3 /* Frameworks */,
+				6547890F1EEA4E77006AEBB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654789131EEA4E77006AEBB3 /* PBXTargetDependency */,
+			);
+			name = ZTranslationScrollUITests;
+			productName = ZTranslationScrollUITests;
+			productReference = 654789111EEA4E77006AEBB3 /* ZTranslationScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654788EA1EEA4E77006AEBB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Z;
+				TargetAttributes = {
+					654788F11EEA4E77006AEBB3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5YTH3WKNZJ;
+						ProvisioningStyle = Manual;
+					};
+					654789051EEA4E77006AEBB3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 654788F11EEA4E77006AEBB3;
+					};
+					654789101EEA4E77006AEBB3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 654788F11EEA4E77006AEBB3;
+					};
+				};
+			};
+			buildConfigurationList = 654788ED1EEA4E77006AEBB3 /* Build configuration list for PBXProject "ZTranslationScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 654788E91EEA4E77006AEBB3;
+			productRefGroup = 654788F31EEA4E77006AEBB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654788F11EEA4E77006AEBB3 /* ZTranslationScroll */,
+				654789051EEA4E77006AEBB3 /* ZTranslationScrollTests */,
+				654789101EEA4E77006AEBB3 /* ZTranslationScrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654788F01EEA4E77006AEBB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654789001EEA4E77006AEBB3 /* LaunchScreen.storyboard in Resources */,
+				654788FD1EEA4E77006AEBB3 /* Assets.xcassets in Resources */,
+				654788FB1EEA4E77006AEBB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654789041EEA4E77006AEBB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6547890F1EEA4E77006AEBB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CA061AD7047D8A3726ED3DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZTranslationScroll/Pods-ZTranslationScroll-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B700213B5D8E00A48E1742FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZTranslationScroll/Pods-ZTranslationScroll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB7C7BA8261A72508F0224C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654788EE1EEA4E77006AEBB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654789291EEA4F3E006AEBB3 /* ZTranslationScrollView.swift in Sources */,
+				654789271EEA4F03006AEBB3 /* ViewController.swift in Sources */,
+				654788F61EEA4E77006AEBB3 /* AppDelegate.swift in Sources */,
+				6547892B1EEA51A0006AEBB3 /* ZTranslationToolView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654789021EEA4E77006AEBB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6547890B1EEA4E77006AEBB3 /* ZTranslationScrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6547890D1EEA4E77006AEBB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654789161EEA4E77006AEBB3 /* ZTranslationScrollUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		654789081EEA4E77006AEBB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654788F11EEA4E77006AEBB3 /* ZTranslationScroll */;
+			targetProxy = 654789071EEA4E77006AEBB3 /* PBXContainerItemProxy */;
+		};
+		654789131EEA4E77006AEBB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654788F11EEA4E77006AEBB3 /* ZTranslationScroll */;
+			targetProxy = 654789121EEA4E77006AEBB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		654788F91EEA4E77006AEBB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654788FA1EEA4E77006AEBB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		654788FE1EEA4E77006AEBB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654788FF1EEA4E77006AEBB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		654789181EEA4E77006AEBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		654789191EEA4E77006AEBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6547891B1EEA4E77006AEBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3496B8F6E67E6E5A429138E3 /* Pods-ZTranslationScroll.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5YTH3WKNZJ;
+				INFOPLIST_FILE = ZTranslationScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.ZTranslationScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c28f3b4d-d6d3-46bc-a3ad-6c9214ba5ee7";
+				PROVISIONING_PROFILE_SPECIFIER = DanielProject_Dev;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6547891C1EEA4E77006AEBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7512F2E4F967ECB57B2AB57 /* Pods-ZTranslationScroll.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5YTH3WKNZJ;
+				INFOPLIST_FILE = ZTranslationScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.ZTranslationScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8836fd53-f534-4832-9e1f-7cee4e069038";
+				PROVISIONING_PROFILE_SPECIFIER = DanielProject_Hoc;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6547891E1EEA4E77006AEBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZTranslationScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.ZTranslationScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTranslationScroll.app/ZTranslationScroll";
+			};
+			name = Debug;
+		};
+		6547891F1EEA4E77006AEBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZTranslationScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.ZTranslationScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZTranslationScroll.app/ZTranslationScroll";
+			};
+			name = Release;
+		};
+		654789211EEA4E77006AEBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZTranslationScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.ZTranslationScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZTranslationScroll;
+			};
+			name = Debug;
+		};
+		654789221EEA4E77006AEBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZTranslationScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.ZTranslationScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZTranslationScroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654788ED1EEA4E77006AEBB3 /* Build configuration list for PBXProject "ZTranslationScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654789181EEA4E77006AEBB3 /* Debug */,
+				654789191EEA4E77006AEBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6547891A1EEA4E77006AEBB3 /* Build configuration list for PBXNativeTarget "ZTranslationScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6547891B1EEA4E77006AEBB3 /* Debug */,
+				6547891C1EEA4E77006AEBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6547891D1EEA4E77006AEBB3 /* Build configuration list for PBXNativeTarget "ZTranslationScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6547891E1EEA4E77006AEBB3 /* Debug */,
+				6547891F1EEA4E77006AEBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654789201EEA4E77006AEBB3 /* Build configuration list for PBXNativeTarget "ZTranslationScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654789211EEA4E77006AEBB3 /* Debug */,
+				654789221EEA4E77006AEBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654788EA1EEA4E77006AEBB3 /* Project object */;
+}

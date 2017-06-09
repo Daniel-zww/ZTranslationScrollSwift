@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'ZTranslationScroll' do
+    
+    pod 'SwiftDate'
+    pod 'SnapKit'
+    pod 'SwiftValidator', :git => 'https://github.com/jpotts18/SwiftValidator.git', :branch => 'master'
+    
+end

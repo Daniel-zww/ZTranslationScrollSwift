@@ -1,0 +1,28 @@
+PODS:
+  - SnapKit (3.2.0)
+  - SwiftDate (4.1.2)
+  - SwiftValidator (4.0.0)
+
+DEPENDENCIES:
+  - SnapKit
+  - SwiftDate
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  SwiftValidator:
+    :commit: 2a6c23ad9efd76127f6109445515cb9780e5ad92
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftDate: 2dfdebd4f67ae71c9c3e2413ee3c56947f302858
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+
+PODFILE CHECKSUM: 50f16907bd8566368ce155f4a6c1309f95b8830c
+
+COCOAPODS: 1.2.1
