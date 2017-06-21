@@ -8,6 +8,8 @@
 
 import UIKit
 
+public let kTranslationTopViewHeight: CGFloat = 150
+
 class ZTranslationTopView: UIView {
 
     // MARK: - SuperMethod
@@ -33,7 +35,7 @@ class ZTranslationTopView: UIView {
     // MARK: - PrivateMethod
     
     private func innerInit() {
-        self.backgroundColor = .white
+        self.backgroundColor = UIColor.yellow
     }
 
 }

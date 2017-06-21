@@ -8,6 +8,9 @@
 
 import UIKit
 
+/// 导航栏和状态栏高度
+public let kNavigationStatusHeight: CGFloat = 64
+
 extension UIView {
     
     /// 导航线

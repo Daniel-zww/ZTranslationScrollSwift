@@ -22,6 +22,10 @@
 		654789471EEA8A95006AEBB3 /* ZTranslationScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654789431EEA8A95006AEBB3 /* ZTranslationScrollView.swift */; };
 		654789481EEA8A95006AEBB3 /* ZTranslationToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654789441EEA8A95006AEBB3 /* ZTranslationToolView.swift */; };
 		654789491EEA8A95006AEBB3 /* ZTranslationTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654789451EEA8A95006AEBB3 /* ZTranslationTopView.swift */; };
+		6547894C1EEA905B006AEBB3 /* bb@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6547894B1EEA905B006AEBB3 /* bb@2x.jpg */; };
+		6547894E1EEA9096006AEBB3 /* ZTranslationItemTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547894D1EEA9096006AEBB3 /* ZTranslationItemTVC.swift */; };
+		654789501EEA90C4006AEBB3 /* ZBaseTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6547894F1EEA90C4006AEBB3 /* ZBaseTVC.swift */; };
+		654789521EEA9104006AEBB3 /* ZModelMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654789511EEA9104006AEBB3 /* ZModelMusic.swift */; };
 		CAEFBBF499FFD2C20A3DADA2 /* Pods_ZTranslationScroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9217CCD22F72460BD9C3688 /* Pods_ZTranslationScroll.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +69,10 @@
 		654789431EEA8A95006AEBB3 /* ZTranslationScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTranslationScrollView.swift; sourceTree = "<group>"; };
 		654789441EEA8A95006AEBB3 /* ZTranslationToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTranslationToolView.swift; sourceTree = "<group>"; };
 		654789451EEA8A95006AEBB3 /* ZTranslationTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTranslationTopView.swift; sourceTree = "<group>"; };
+		6547894B1EEA905B006AEBB3 /* bb@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bb@2x.jpg"; sourceTree = "<group>"; };
+		6547894D1EEA9096006AEBB3 /* ZTranslationItemTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTranslationItemTVC.swift; sourceTree = "<group>"; };
+		6547894F1EEA90C4006AEBB3 /* ZBaseTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBaseTVC.swift; sourceTree = "<group>"; };
+		654789511EEA9104006AEBB3 /* ZModelMusic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZModelMusic.swift; sourceTree = "<group>"; };
 		E7512F2E4F967ECB57B2AB57 /* Pods-ZTranslationScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTranslationScroll.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZTranslationScroll/Pods-ZTranslationScroll.release.xcconfig"; sourceTree = "<group>"; };
 		E9217CCD22F72460BD9C3688 /* Pods_ZTranslationScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTranslationScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -135,6 +143,7 @@
 				654788FE1EEA4E77006AEBB3 /* LaunchScreen.storyboard */,
 				654788F91EEA4E77006AEBB3 /* Main.storyboard */,
 				6547892C1EEA7500006AEBB3 /* Model */,
+				6547894A1EEA9012006AEBB3 /* Resources */,
 				654789231EEA4EA3006AEBB3 /* UI */,
 			);
 			path = ZTranslationScroll;
@@ -188,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				6547892F1EEA7580006AEBB3 /* ZModelBannerType.swift */,
+				654789511EEA9104006AEBB3 /* ZModelMusic.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -203,6 +213,7 @@
 		6547893C1EEA8A6D006AEBB3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				6547894F1EEA90C4006AEBB3 /* ZBaseTVC.swift */,
 				6547893D1EEA8A90006AEBB3 /* ZScrollView.swift */,
 				6547893E1EEA8A90006AEBB3 /* ZTableView.swift */,
 			);
@@ -213,11 +224,20 @@
 			isa = PBXGroup;
 			children = (
 				654789421EEA8A95006AEBB3 /* ZTranslationItemTV.swift */,
+				6547894D1EEA9096006AEBB3 /* ZTranslationItemTVC.swift */,
 				654789431EEA8A95006AEBB3 /* ZTranslationScrollView.swift */,
 				654789441EEA8A95006AEBB3 /* ZTranslationToolView.swift */,
 				654789451EEA8A95006AEBB3 /* ZTranslationTopView.swift */,
 			);
 			path = TranslationScroll;
+			sourceTree = "<group>";
+		};
+		6547894A1EEA9012006AEBB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6547894B1EEA905B006AEBB3 /* bb@2x.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		E2B3235057D5DF09613761D3 /* Pods */ = {
@@ -342,6 +362,7 @@
 			files = (
 				654789001EEA4E77006AEBB3 /* LaunchScreen.storyboard in Resources */,
 				654788FD1EEA4E77006AEBB3 /* Assets.xcassets in Resources */,
+				6547894C1EEA905B006AEBB3 /* bb@2x.jpg in Resources */,
 				654788FB1EEA4E77006AEBB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,13 +439,16 @@
 				654789461EEA8A95006AEBB3 /* ZTranslationItemTV.swift in Sources */,
 				654789401EEA8A90006AEBB3 /* ZTableView.swift in Sources */,
 				654789471EEA8A95006AEBB3 /* ZTranslationScrollView.swift in Sources */,
+				6547894E1EEA9096006AEBB3 /* ZTranslationItemTVC.swift in Sources */,
 				654789301EEA7580006AEBB3 /* ZModelBannerType.swift in Sources */,
 				654789331EEA77A3006AEBB3 /* ClassExtension.swift in Sources */,
 				654789271EEA4F03006AEBB3 /* ViewController.swift in Sources */,
+				654789521EEA9104006AEBB3 /* ZModelMusic.swift in Sources */,
 				654788F61EEA4E77006AEBB3 /* AppDelegate.swift in Sources */,
 				6547893F1EEA8A90006AEBB3 /* ZScrollView.swift in Sources */,
 				654789481EEA8A95006AEBB3 /* ZTranslationToolView.swift in Sources */,
 				654789491EEA8A95006AEBB3 /* ZTranslationTopView.swift in Sources */,
+				654789501EEA90C4006AEBB3 /* ZBaseTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

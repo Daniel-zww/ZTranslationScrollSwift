@@ -14,5 +14,10 @@ class ZModelBannerType: NSObject {
     var id: Int64 = 0
     /// 分类名称
     var name: String = ""
-    
+
+    convenience init(id: Int64, name: String) {
+        self.init()
+        self.id = id
+        self.name = name
+    }
 }
